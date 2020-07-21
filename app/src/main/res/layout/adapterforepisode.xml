@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearlayouta"
+    android:layout_margin="10dp"
+
+    android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/notbutton"
+           android:fontFamily="@font/regular"
+           android:textSize="16sp"
+           android:maxLines="2"
+           android:padding="10dp"
+           android:layout_weight="1"
+           android:text="watch"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:id="@+id/downloadchoice"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            />
+
+    </LinearLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jul 21 17:24:15 IST 2020
+0.baseType=DIRECTORY
+0.base=/Users/balvinder/Documents/animewatcher-private/app/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+0.set=DEX
+count=1

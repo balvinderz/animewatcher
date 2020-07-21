@@ -1,0 +1,61 @@
+ /*     try {
+                    l = "https:" + x;
+                    //      Log.i("Checkingsomethingsomething",l);
+                    org.jsoup.nodes.Document vid = Jsoup.connect(l).get();
+                    Log.i("videf", String.valueOf(vid));
+                    Elements elements = vid.select("script").eq(5);
+                    Elements xxa = vid.select("script");
+                    Log.i("bhaichaljanaa", String.valueOf(xxa.size()));
+                    Log.i("check", String.valueOf(elements));
+                    String urlRegex = "((https?|ftp|gopher|telnet|file):((//)|(\\\\))+[\\w\\d:#@%/;$()~_?\\+-=\\\\\\.&]*)";
+                    Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
+                    Matcher urlMatcher = pattern.matcher(String.valueOf(elements));
+                    ArrayList<String> containedUrls = new ArrayList<String>();
+                    while (urlMatcher.find()) {
+                        containedUrls.add(String.valueOf(elements).substring(urlMatcher.start(0),
+                                urlMatcher.end(0)));
+                    }
+                    if (containedUrls.size() == 0) {
+                        Elements x = vid.select("script").eq(3);
+                        String a = "((https?|ftp|gopher|telnet|file):((//)|(\\\\))+[\\w\\d:#@%/;$()~_?\\+-=\\\\\\.&]*)";
+                        Pattern z = Pattern.compile(a, Pattern.CASE_INSENSITIVE);
+                        Matcher y = z.matcher(String.valueOf(x));
+                        ArrayList<String> b = new ArrayList<String>();
+                        while (y.find()) {
+                            containedUrls.add(String.valueOf(x).substring(y.start(0),
+                                    y.end(0)));
+                        }
+                    }
+//Log.i("loghoja",String.valueOf(containedUrls.size()));
+                  for (int i = 0; i < containedUrls.size(); i++)
+                     Log.i("Checkblabla", containedUrls.get(i));
+                 //Log.i("Checkblabla",containedUrls.get(3));
+//if(containedUrls.size()==0)
+                    //   Toast.makeText(context,"cannot play video",Toast.LENGTH_SHORT).show();
+                    if(containedUrls.size()==0)
+                    {
+                        Elements elements2=mBlogDocument.select("li[class=mp4]").select("a");
+//Log.i("printing size",String.valueOf(elements.size()));
+                        String value=elements2.attr("data-video");
+//int index=value.indexOf("embed");
+//Log.i("printingindex",String.valueOf(index));
+//StringBuffer str=new StringBuffer(value);
+
+                        //str.replace(index,index+5,"watch");
+                        //                  Log.i("printingx",str.toString());
+
+//Log.i("printing url",value);
+                        //    org.jsoup.nodes.Document mp4link=Jsoup.connect(value).get();
+                        //      Log.i("sizeofmp4link",String.valueOf(mp4link));
+                        //       Elements elements1=mp4link.select("div[id=player]");
+                        //     Log.i("printing url",elements1);
+                        l=value;
+                    }
+                else{    org.jsoup.nodes.Document videostreamlink = Jsoup.connect(containedUrls.get(containedUrls.size() - 1)).get();
+                    if (String.valueOf(videostreamlink).contains("htttps://nl3.")) {
+                        Log.i("chalrhahaiye", "firbhinhichalrha");
+                        videostreamlink = Jsoup.connect(containedUrls.get(4)).get();
+                    }
+                   //     qualityvalue=findViewById(R.id.qualityxy);
+
+                    Log.i("blablablabla", String.valueOf(videostreamlink));*/

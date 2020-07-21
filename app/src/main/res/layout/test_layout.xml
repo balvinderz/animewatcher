@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:background="#000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#05445E"
+            android:id="@+id/date"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="2nd January 2019"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/date"
+            android:id="@+id/firstLayout"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="30dp"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:background="#C4C4C4"
+                android:layout_marginTop="5dp"
+                android:id="@+id/xyz"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/xyz"
+                android:paddingLeft="10dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="#05445E"
+                android:layout_margin="0dp"
+                android:textSize="20sp"
+                android:text="Beer"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20000"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/price"
+                android:textSize="20sp"
+                android:textColor="#05445E"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:background="#C4C4C4"
+                android:layout_marginTop="5dp"
+                android:id="@+id/xyz"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/xyz"
+                android:paddingLeft="10dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="#05445E"
+                android:layout_margin="0dp"
+                android:textSize="20sp"
+                android:text="Beer"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20000"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/price"
+                android:textSize="20sp"
+                android:textColor="#05445E"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="55dp"
+            android:layout_height="2dp"
+            android:background="#C4C4C4"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#05445E"
+            android:layout_gravity="end"
+            android:text="40000"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<Button
+    android:layout_width="match_parent"
+    style="@style/Base.Widget.AppCompat.Button.Borderless"
+    android:id="@+id/buttondownload"
+    android:text="soja"
+    android:textSize="15sp"
+    android:background="#fff"
+
+    android:textAlignment="textStart"
+    android:textAllCaps="false"
+    android:layout_height="match_parent" />
+</LinearLayout>

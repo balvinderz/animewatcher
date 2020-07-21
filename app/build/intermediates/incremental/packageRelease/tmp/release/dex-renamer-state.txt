@@ -1,0 +1,4 @@
+#Tue Jul 21 18:03:09 IST 2020
+base.0=/Users/balvinder/Documents/animewatcher-private/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
