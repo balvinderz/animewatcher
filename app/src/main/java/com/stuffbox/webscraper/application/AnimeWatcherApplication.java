@@ -103,7 +103,7 @@ public class AnimeWatcherApplication extends Application {
         return downloadTracker;
     }
 
-    protected synchronized Cache getDownloadCache() {
+    public synchronized Cache getDownloadCache() {
         if (downloadCache == null) {
             File downloadContentDirectory = new File(getDownloadDirectory(), DOWNLOAD_CONTENT_DIRECTORY);
             downloadCache =

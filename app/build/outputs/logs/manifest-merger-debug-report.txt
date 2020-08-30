@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+MERGED from [com.google.android.material:material:1.2.0-alpha05] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8550b24eb939fd9c9a56a9df7522681a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5ed7127ee264c49b5f9673ad8f24a4b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e8e2813ce49bec361bc029270fcce569/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9470f1040e59396fbef8f5922c862faf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ebd6761939b5e779dc604d4b8ac7ec0c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d603e3e3bcf8e1161eb16baeedf021d0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/61b12bd32d532f86af1944241e446d42/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9a9eb7c752a93a19e7789c26cbf2bd97/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f6ca3652b96fd5ee2f6438249f5e57c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5a4816f25c163da28074e7cfcc44464/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/958060784664663e844ee1ccb54789be/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b50eb6544b9f547f2747d369397c0e9d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/71da1cd33a4988a840707aa63048f6e5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/69a0445620ea50f6f159902576d99cea/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/2cbb9b0f6dc277fa0c79dfccc6eac3f0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ee807bc81fecd0c0f13d34f0e26a2a4b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6be62b60fafa617f182eb77ba5dfeb40/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/7c411cd05ae6f58aee4d5bb566793d8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/1c2bd01ba5a4a2073aa2cae1ffe39c65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/5034519c8a069ff691d3f01855561274/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e63be19c3a88f6b62b7e318f923c13fe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/57b6e9a9676157200b867be3bb4d97eb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/23146d48702f4a71447d2e1f4946ac08/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c9f298d8d267e07e8d79e19a5aa04435/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/f1c0294c354c2c13165daf4fd38d07e3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/a1acf7525e6edc04dd277dab376aff11/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b0ac0240f49deaa20f32e4afb247930c/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/42ca2fa63bf6ea4715190c9a9066f682/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/069b67f63a7b190c49dfa52e6db26b4e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8fe1e835b04447f418633847e398ee3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8bdd77d296817f68f52f6a4346cb4914/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c6511b9285bf654c77d053f0d01f2795/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/237cb553f6f097fe2b4a063a3d11d23f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/661c23d30448a9b5b3fc8f619b7e0f1d/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/897ebc7c2eef0b23c713ae272246e824/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f29bf80bc50ee0b005c3bd388f5aa96/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/be8cad06ecba9a01cc3094d4e489ba5c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/47b2d4ee15d22bb70aa874911a6a70cd/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+	package
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:1-86:12
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b0ac0240f49deaa20f32e4afb247930c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b0ac0240f49deaa20f32e4afb247930c/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:11:22-74
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:12:5-89
+	android:required
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:12:63-87
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:12:19-62
+application
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:13:5-84:19
+MERGED from [com.google.android.material:material:1.2.0-alpha05] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8550b24eb939fd9c9a56a9df7522681a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha05] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8550b24eb939fd9c9a56a9df7522681a/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e8e2813ce49bec361bc029270fcce569/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e8e2813ce49bec361bc029270fcce569/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/661c23d30448a9b5b3fc8f619b7e0f1d/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/661c23d30448a9b5b3fc8f619b7e0f1d/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:18:9-38
+	android:roundIcon
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:21:9-46
+	android:largeHeap
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:19:9-33
+	android:icon
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:23:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:17:9-60
+activity#com.stuffbox.webscraper.activities.MainActivity
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:26:9-36:20
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:27:13-42
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:29:13-59
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:26:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:34:27-74
+activity#com.stuffbox.webscraper.activities.WatchVideo
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:38:9-47:15
+	android:screenOrientation
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:42:13-50
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:41:13-45
+	android:launchMode
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:44:13-44
+	android:supportsPictureInPicture
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:45:13-52
+	android:resizeableActivity
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:43:13-46
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:40:13-91
+	android:theme
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:46:13-80
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:39:13-50
+activity#com.stuffbox.webscraper.activities.selectEpisode
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:48:9-49:61
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:48:19-59
+activity#com.stuffbox.webscraper.activities.webvideo
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:50:9-55:74
+	android:screenOrientation
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:54:13-50
+	android:launchMode
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:53:13-44
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:52:13-59
+	android:theme
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:55:13-71
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:51:13-48
+activity#com.stuffbox.webscraper.activities.AnimeList
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:56:9-58:41
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:58:13-39
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:57:13-59
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:56:19-55
+activity#com.stuffbox.webscraper.activities.Settings
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:59:9-62:15
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:60:13-37
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:61:13-59
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:59:19-54
+activity#com.stuffbox.webscraper.activities.DownloadedVideo
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:63:9-72:15
+	android:screenOrientation
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:67:13-50
+	android:label
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:66:13-45
+	android:launchMode
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:69:13-44
+	android:supportsPictureInPicture
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:70:13-52
+	android:resizeableActivity
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:68:13-46
+	android:configChanges
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:65:13-91
+	android:theme
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:71:13-80
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:64:13-55
+service#com.stuffbox.webscraper.downloader.MyDownloaderService
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:73:9-79:19
+	android:exported
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:73:18-64
+intent-filter#action:name:com.google.android.exoplayer.downloadService.action.RESTART+category:name:android.intent.category.DEFAULT
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:75:13-78:29
+action#com.google.android.exoplayer.downloadService.action.RESTART
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:76:17-101
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:76:25-99
+category#android.intent.category.DEFAULT
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:77:17-75
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:77:27-73
+service#com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService
+ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:81:9-83:38
+	android:exported
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:83:13-36
+	android:permission
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:82:13-69
+	android:name
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml:81:18-115
+uses-sdk
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.0-alpha05] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8550b24eb939fd9c9a56a9df7522681a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha05] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8550b24eb939fd9c9a56a9df7522681a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5ed7127ee264c49b5f9673ad8f24a4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5ed7127ee264c49b5f9673ad8f24a4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e8e2813ce49bec361bc029270fcce569/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e8e2813ce49bec361bc029270fcce569/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9470f1040e59396fbef8f5922c862faf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9470f1040e59396fbef8f5922c862faf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ebd6761939b5e779dc604d4b8ac7ec0c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ebd6761939b5e779dc604d4b8ac7ec0c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d603e3e3bcf8e1161eb16baeedf021d0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d603e3e3bcf8e1161eb16baeedf021d0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/61b12bd32d532f86af1944241e446d42/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/61b12bd32d532f86af1944241e446d42/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9a9eb7c752a93a19e7789c26cbf2bd97/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/9a9eb7c752a93a19e7789c26cbf2bd97/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f6ca3652b96fd5ee2f6438249f5e57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f6ca3652b96fd5ee2f6438249f5e57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5a4816f25c163da28074e7cfcc44464/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/d5a4816f25c163da28074e7cfcc44464/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/958060784664663e844ee1ccb54789be/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/958060784664663e844ee1ccb54789be/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b50eb6544b9f547f2747d369397c0e9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b50eb6544b9f547f2747d369397c0e9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/71da1cd33a4988a840707aa63048f6e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/71da1cd33a4988a840707aa63048f6e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/69a0445620ea50f6f159902576d99cea/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/69a0445620ea50f6f159902576d99cea/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/2cbb9b0f6dc277fa0c79dfccc6eac3f0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/2cbb9b0f6dc277fa0c79dfccc6eac3f0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ee807bc81fecd0c0f13d34f0e26a2a4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/ee807bc81fecd0c0f13d34f0e26a2a4b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6be62b60fafa617f182eb77ba5dfeb40/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6be62b60fafa617f182eb77ba5dfeb40/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/7c411cd05ae6f58aee4d5bb566793d8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/7c411cd05ae6f58aee4d5bb566793d8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/1c2bd01ba5a4a2073aa2cae1ffe39c65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/1c2bd01ba5a4a2073aa2cae1ffe39c65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/5034519c8a069ff691d3f01855561274/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/5034519c8a069ff691d3f01855561274/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e63be19c3a88f6b62b7e318f923c13fe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/e63be19c3a88f6b62b7e318f923c13fe/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/57b6e9a9676157200b867be3bb4d97eb/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/57b6e9a9676157200b867be3bb4d97eb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/23146d48702f4a71447d2e1f4946ac08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/23146d48702f4a71447d2e1f4946ac08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c006388293472acb7d36a8a408270519/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c9f298d8d267e07e8d79e19a5aa04435/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c9f298d8d267e07e8d79e19a5aa04435/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/f1c0294c354c2c13165daf4fd38d07e3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/f1c0294c354c2c13165daf4fd38d07e3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/a1acf7525e6edc04dd277dab376aff11/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/a1acf7525e6edc04dd277dab376aff11/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b0ac0240f49deaa20f32e4afb247930c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/b0ac0240f49deaa20f32e4afb247930c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/42ca2fa63bf6ea4715190c9a9066f682/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/42ca2fa63bf6ea4715190c9a9066f682/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/069b67f63a7b190c49dfa52e6db26b4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/069b67f63a7b190c49dfa52e6db26b4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8fe1e835b04447f418633847e398ee3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8fe1e835b04447f418633847e398ee3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8bdd77d296817f68f52f6a4346cb4914/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/8bdd77d296817f68f52f6a4346cb4914/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c6511b9285bf654c77d053f0d01f2795/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/c6511b9285bf654c77d053f0d01f2795/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/237cb553f6f097fe2b4a063a3d11d23f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/237cb553f6f097fe2b4a063a3d11d23f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/661c23d30448a9b5b3fc8f619b7e0f1d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/661c23d30448a9b5b3fc8f619b7e0f1d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/897ebc7c2eef0b23c713ae272246e824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/897ebc7c2eef0b23c713ae272246e824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f29bf80bc50ee0b005c3bd388f5aa96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/6f29bf80bc50ee0b005c3bd388f5aa96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/be8cad06ecba9a01cc3094d4e489ba5c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/be8cad06ecba9a01cc3094d4e489ba5c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/47b2d4ee15d22bb70aa874911a6a70cd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/47b2d4ee15d22bb70aa874911a6a70cd/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/balvinderz/AndroidStudioProjects/animewatcher/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/3956c0db2cf24aceb152ea9c2a46e843/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/balvinderz/.gradle/caches/transforms-2/files-2.1/0d878ab5b99c1353c7e1029152e41645/AndroidManifest.xml:26:13-74

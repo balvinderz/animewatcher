@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.stuffbox.webscraper.constants.Constants;
 import com.stuffbox.webscraper.fragments.AnimeFragment;
+import com.stuffbox.webscraper.fragments.DownloadedFragment;
 import com.stuffbox.webscraper.fragments.RecentFragment;
 
 public class    ViewPagerAdapter extends FragmentPagerAdapter {
@@ -28,6 +29,9 @@ public class    ViewPagerAdapter extends FragmentPagerAdapter {
     }
     else if(position==1)
         fragment=AnimeFragment.newInstance(Constants.url);
+    else if(position ==3)
+        fragment = new DownloadedFragment();
+
     else
     {
         fragment=new RecentFragment();
@@ -36,7 +40,7 @@ public class    ViewPagerAdapter extends FragmentPagerAdapter {
     }
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
     @Override
     public CharSequence getPageTitle(int position) {
@@ -53,6 +57,9 @@ public class    ViewPagerAdapter extends FragmentPagerAdapter {
         {
             title= "RECENT";
         }
+        else if(position ==3)
+            title="Downloads";
+
 
 
         return title;

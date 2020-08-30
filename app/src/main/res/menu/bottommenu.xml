@@ -18,4 +18,9 @@
         android:icon="@drawable/psyduck"
         app:showAsAction="always"
         android:id="@+id/recent"/>
+    <item
+        android:title="Download"
+        android:icon="@drawable/psyduck"
+        app:showAsAction="always"
+        android:id="@+id/download"/>
 </menu>

@@ -9,7 +9,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <uses-feature android:name="android.software.leanback" android:required="false"/>
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
     <application
         android:allowBackup="true"
@@ -61,7 +60,16 @@
             android:label="Settings"
             android:configChanges="orientation|screenSize"
             />
-
+        <activity
+            android:name=".activities.DownloadedVideo"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:resizeableActivity="true"
+            android:launchMode="singleTask"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            />
         <service android:name=".downloader.MyDownloaderService"
             android:exported="false">
             <intent-filter>

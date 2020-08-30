@@ -25,6 +25,8 @@ public class NewScraper extends  Scraper{
             Document page = Jsoup.connect(vidStreamUrl).ignoreContentType(true).get();
             JSONObject jsonObject = new JSONObject(page.text());
             String qualityUrl = ((JSONObject)jsonObject.getJSONArray("source").get(0)).getString("file");
+            if(qualityUrl.endsWith(".m3u8"))
+                qualityUrl = ((JSONObject)jsonObject.getJSONArray("source_bk").get(0)).getString("file");
             String quality = "HD P";
             ArrayList<Quality> qualities  = new ArrayList<>();
             qualities.add(new Quality(quality,qualityUrl));

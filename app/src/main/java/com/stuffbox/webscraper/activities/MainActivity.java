@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
                                 case R.id.recent:
                                     viewPager.setCurrentItem(2);
                                     break;
+                                case R.id.download :
+                                    viewPager.setCurrentItem(3);
+                                    break;
                             }
                             return false;
                         }
@@ -103,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         AnimeDatabase animeDatabase = AnimeDatabase.getInstance(this);
         progressBar=findViewById(R.id.progress2);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
-        viewPager.setOffscreenPageLimit(3);
+        viewPager.setOffscreenPageLimit(4);
         viewPager.setAdapter(viewPagerAdapter);
             viewPager.setCurrentItem(1);
             bottomNavigationView.getMenu().getItem(1).setChecked(true);

@@ -20,6 +20,7 @@ public class Anime {
     @ColumnInfo(name = "time")
 
     String time;
+
     @Ignore
     public Anime(String name, String link, String imageLink) {
         this.id = id;
