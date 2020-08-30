@@ -21,6 +21,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.stuffbox.webscraper.R;
 import com.stuffbox.webscraper.adapters.AnimeDataAdapter;
+import com.stuffbox.webscraper.application.AnimeWatcherApplication;
 import com.stuffbox.webscraper.models.Anime;
 
 public class AnimeFragment extends Fragment {
@@ -54,7 +55,6 @@ public class AnimeFragment extends Fragment {
                              Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.dublayout,container,false);
         swipeRefreshLayout=view.findViewById(R.id.swiperefresh);
-
             new Dub().execute();
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -115,7 +115,7 @@ public class AnimeFragment extends Fragment {
         @Override
         protected void onPostExecute(Void result) {
             RecyclerView mRecyclerView = view.findViewById(R.id.act_recyclerview);
-            AnimeDataAdapter mDataAdapter = new AnimeDataAdapter(view.getContext(), AnimeList);
+            AnimeDataAdapter mDataAdapter = new AnimeDataAdapter(view.getContext(), AnimeList,(AnimeWatcherApplication)getActivity().getApplication(),getActivity().getSupportFragmentManager());
             RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(view.getContext());
             mRecyclerView.setHasFixedSize(true);
             mRecyclerView.setDrawingCacheEnabled(true);

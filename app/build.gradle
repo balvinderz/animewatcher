@@ -22,6 +22,7 @@ android {
     }
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -37,7 +38,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.android.material:material:1.2.0-alpha05'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'com.google.android.exoplayer:exoplayer:2.10.8'
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.4'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     def room_version = "2.2.5"
 

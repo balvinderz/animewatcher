@@ -22,6 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.stuffbox.webscraper.R;
 import com.stuffbox.webscraper.adapters.AnimeDataAdapter;
+import com.stuffbox.webscraper.application.AnimeWatcherApplication;
 import com.stuffbox.webscraper.database.AnimeDatabase;
 import com.stuffbox.webscraper.models.Anime;
 
@@ -61,7 +62,7 @@ public class RecentFragment extends Fragment {
 //        }
         AnimeDatabase animeDatabase = AnimeDatabase.getInstance(getContext());
         List<Anime> animeList =  animeDatabase.animeDao().getAnimeList();
-        AnimeDataAdapter mDataAdapter = new AnimeDataAdapter(getContext(), animeList);
+        AnimeDataAdapter mDataAdapter = new AnimeDataAdapter(getContext(), animeList,(AnimeWatcherApplication)getActivity().getApplication(),getFragmentManager());
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getContext());
         recyclerView.setHasFixedSize(true);
         recyclerView.setDrawingCacheEnabled(true);
