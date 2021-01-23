@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Documents-animewatcher-private.iml" filepath="$PROJECT_DIR$/Documents-animewatcher-private.iml" group="animewatcher-private" />
-      <module fileurl="file://$PROJECT_DIR$/app/Documents-animewatcher-private-app.iml" filepath="$PROJECT_DIR$/app/Documents-animewatcher-private-app.iml" group="animewatcher-private/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/animewatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/animewatcher.iml" group="animewatcher" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/animewatcher-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/animewatcher-app.iml" group="animewatcher/app" />
-      <module fileurl="file://$PROJECT_DIR$/animewatcher-private.iml" filepath="$PROJECT_DIR$/animewatcher-private.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/animewatcher-private-app.iml" filepath="$PROJECT_DIR$/app/animewatcher-private-app.iml" group="animewatcher-private/app" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apps-animewatcher-private.iml" filepath="$PROJECT_DIR$/apps-animewatcher-private.iml" group="animewatcher-private" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/animewatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/animewatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/animewatcher.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/animewatcher.app.iml" />
     </modules>
   </component>
 </project>
