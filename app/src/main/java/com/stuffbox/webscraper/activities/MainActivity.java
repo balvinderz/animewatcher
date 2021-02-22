@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                     recyclerView.setVisibility(View.VISIBLE);
                     viewPager.setVisibility(View.GONE);
                     bottomNavigationView.setVisibility(View.GONE);
-                    searchurl = Constants.url+"/search.html?keyword=" + newText;
+                    searchurl = Constants.url+"/search?keyword=" + newText;
                     if (x.getStatus() == AsyncTask.Status.RUNNING)
                         x.cancel(true);
                     x = new SearchingAnime();

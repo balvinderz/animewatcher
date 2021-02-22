@@ -161,13 +161,14 @@ public class selectEpisode extends AppCompatActivity {
                 Log.d("episodesare", String.valueOf(end));
                 if (end != 0)
                     for (int i = 1; i <= end; i++) {
-                        String c = Constants.url + animename + "-episode-" + i;
+                        String c = Constants.url+"/watch/" + animename + "-episode-" + i;
+                        Log.i("cis",c);
                         mEpisodeList.add(String.valueOf(i));
 
                         mSiteLink.add(c);
                     }
                 else {
-                    String c = Constants.url + animename + "-episode-" + 0;
+                    String c = Constants.url+"/watch/" + animename + "-episode-" + 0;
                     mEpisodeList.add(String.valueOf(0));
 
                     mSiteLink.add(c);

@@ -1,5 +1,7 @@
 package com.stuffbox.webscraper.scrapers;
 
+import android.util.Log;
+
 import com.stuffbox.webscraper.models.Quality;
 
 
@@ -18,8 +20,9 @@ public class NewScraper extends  Scraper{
 
     @Override
     public ArrayList<Quality> getQualityUrls() {
-
-        String vidStreamUrl = "https:" + gogoAnimePageDocument.getElementsByClass("play-video").get(0).getElementsByTag("iframe").get(0).attr("src");
+            Log.i("newScraperRunning","running");
+        String vidStreamUrl = gogoAnimePageDocument.getElementsByClass("play-video").get(0).getElementsByTag("iframe").get(0).attr("src");
+        Log.i("vidsteramurl is",vidStreamUrl);
         vidStreamUrl = vidStreamUrl.replaceAll("streaming.php","ajax.php");
         try {
             Document page = Jsoup.connect(vidStreamUrl).ignoreContentType(true).get();

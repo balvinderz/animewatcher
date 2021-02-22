@@ -75,7 +75,7 @@ public class WatchVideo extends AppCompatActivity {
     String nextVideoLink = null;
     String previousVideoLink = null;
     public static String url = "https://gogoanime.so/";
-    int currentScraper = 3;
+    int currentScraper = 2;
     ArrayList<Scraper> scrapers = new ArrayList<>();
     boolean startedPlaying = false;
     Context context;
@@ -126,7 +126,7 @@ public class WatchVideo extends AppCompatActivity {
                     episodeNumber += 1;
                     changedAnime = true;
                     executeQuery(animeName, episodeNumber, nextVideoLink, imageLink);
-                    currentScraper = 3;
+                    currentScraper = 2;
                   //  player.setPlayWhenReady(false);
                     changedEpisode = false;
                     new ScrapeVideoLink(nextVideoLink, context).execute();
@@ -160,7 +160,7 @@ public class WatchVideo extends AppCompatActivity {
                 updateTimer.cancel();
                 changedAnime = true;
                 episodeNumber -= 1;
-                currentScraper = 3;
+                currentScraper = 2;
                 player.setPlayWhenReady(false);
                 executeQuery(animeName, episodeNumber, previousVideoLink, imageLink);
 
