@@ -96,7 +96,7 @@ public class AnimeFragment extends Fragment {
                     if(mAnimenName.contains("[email protect  ed]"))
                         mAnimenName= mAnimenName.replace("[email protected]","IDOLM@STER");
                     String mlink=searching.select("p[class=name]").select("a").eq(i).attr("abs:href");
-                    String imagelink=searching.select("div[class=img]").select("img").eq(2*i).attr("src");
+                    String imagelink=searching.select("div[class=img]").select("img").eq(i).attr("src");
                     String episodeno=searching.select("p[class=episode]").eq(i).text();
                     int index = episodeno.indexOf(" ");
                     episodeno = episodeno.substring(index+1);
