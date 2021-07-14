@@ -25,7 +25,7 @@ public class NewScraper extends  Scraper{
     @Override
     public ArrayList<Quality> getQualityUrls() {
             Log.i("newScraperRunning","running");
-        String vidStreamUrl = gogoAnimePageDocument.getElementsByClass("play-video").get(0).getElementsByTag("iframe").get(0).attr("src");
+        String vidStreamUrl = gogoAnimePageDocument.getElementsByClass("play-video").get(0).getElementsByTag("iframe").get(0).absUrl("src");
         Log.i("vidsteramurl is",vidStreamUrl);
         ArrayList<Quality> qualities  = new ArrayList<>();
 

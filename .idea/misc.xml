@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/adapterforanimelist.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/adapterforepisode.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/animefinder.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/animelistrecyclerview.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/newepisodelayout.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/row_data.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/settings.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/video_progress.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/videoviewer.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/layout/webviewer.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jasbeer/AndroidStudioProjects/new/animewatcher/app/src/main/res/menu/bottommenu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

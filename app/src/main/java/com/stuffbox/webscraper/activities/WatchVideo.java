@@ -74,7 +74,7 @@ public class WatchVideo extends AppCompatActivity {
     AnimeDatabase animeDatabase;
     String nextVideoLink = null;
     String previousVideoLink = null;
-    public static String url = "https://gogoanime.so/";
+    public static String url = "https://gogoanime.pe/";
     int currentScraper = 2;
     ArrayList<Scraper> scrapers = new ArrayList<>();
     boolean startedPlaying = false;

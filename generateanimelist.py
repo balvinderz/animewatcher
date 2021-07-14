@@ -1,7 +1,7 @@
 import requests
 import json
 from bs4 import *
-baseurl ="https://www4.gogoanime.io/"
+baseurl ="https://gogoanime.pe/"
 jsonlist=[]
 for i in range(1,3):
     stringi=str(i)
